@@ -42,7 +42,7 @@ export default function Home() {
 
           {/* Title */}
           <h1 className="text-5xl sm:text-7xl font-black tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-amber-500 via-orange-500 to-orange-700 leading-tight drop-shadow-sm px-2">
-            안녕하세요, 앤입니다!
+            안녕하세요, 앤입니다
           </h1>
 
           {/* Anne Circle Frame */}
@@ -137,6 +137,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="relative z-10 border-t border-sky-200/80 bg-white/75 py-8 text-center text-xs text-slate-600 font-medium">
         <p>© 2026 My First Site · 여백과 비율이 정돈된 모던 레이아웃입니다.</p>
+        <p style="color:#C84726;">[오늘 처음 인터넷에 사이트를 올렸어요!]</p>
       </footer>
     </div>
   );
